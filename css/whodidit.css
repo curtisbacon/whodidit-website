@@ -22,11 +22,9 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-weight: 200;
 }
 
 p {
@@ -184,18 +182,18 @@ a:focus {
 
     .intro .intro-body .brand-heading {
         font-size: 75px;
+        margin-top: 300px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 35px;
     }
 }
 
 .btn-circle {
     width: 42px;
     height: 193px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 205px;
     background-image: url(/img/footsteps.png);
     background-size:contain;
     -webkit-transition: background .3s ease-in-out;
@@ -264,19 +262,46 @@ opacity: 0.5;
 }
 
 .content-section {
-    padding-top: 100px;
+/*    padding-top: 100px;*/
 }
 
 #about {
 width: 100%;
-    background-color: #42dca3;
+    background-color: #1ad5bb;
     padding-bottom: 250px;
+    padding-top: 200px;
     color: #fff;
+}
+.aboutText{
+float: right;
+    text-align: left;
+    width: 600px;
+    padding-right: 50px;
 }
 
 #games {
 width: 100%;
     padding-bottom:250px; 
+}
+
+.headerGame h1 {
+        display: inline-block;
+    margin-left: 250px;
+    margin-top: 80px;
+    float: left;
+font-size: 70px;
+    color: 1ad5bb;
+}
+
+.textGame p {
+display: inline-block;
+    width: 400px;
+    margin-top: 80px;
+    margin-left: 20px;
+    float: left;
+    font-size: 15px;
+    
+
 }
 
 #extras {
@@ -286,9 +311,17 @@ background-color: dimgray;
     color: #fff;
 }
 
+.extraText {
+    width:300px;
+    margin-left: 250px;
+    margin-top: 80px;
+    text-align: left;
+    
+}
+
 @media(min-width:767px) {
     .content-section {
-        padding-top: 250px;
+/*        padding-top: 250px;*/
     }
 
 }
@@ -304,7 +337,7 @@ background-color: dimgray;
 }
 
 .btn-default {
-    border: 1px solid #333;
+    border: 3px solid #333;
     border-radius: 25px;
     color: #333;
     background-color: transparent;
@@ -312,10 +345,10 @@ background-color: dimgray;
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #333;
+    border: 2px solid #333;
     outline: 0;
     color: #fff;
-    background-color: #42dca3;
+    background-color: #1ad5bb;
 }
 
 ul.banner-social-buttons {
