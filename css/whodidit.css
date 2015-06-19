@@ -2,6 +2,51 @@
  * Code licensed under the Apache License v2.0.
  */
 
+.female {
+    display: inline-block;
+	float: left;
+	width: 990px;
+	margin-left: 25%;
+    margin-right: 25%;
+}
+.male {
+ display: inline-block;
+	float: left;
+	width: 990px;
+	margin-left: 25%;
+    margin-right: 25%;
+
+}
+.grid-block {
+	position: relative;
+	float: left;
+	width: 260px;
+	height: 200px;
+	margin: -22px 0 0px -69px;
+}
+
+.caption {
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 43px;
+	background: url(/img/trans-black-50.png);
+    border-radius: 150px;
+	width: 67%;
+	height: 88%;
+}
+.caption h3, .caption p {
+	color: #fff;
+	margin: 20px;
+}
+.caption h3 {
+	margin: 20px 20px 10px;
+}
+.caption p {
+	font-size: .75em;
+	line-height: 1.5em;
+	margin: 0 20px 15px;
+}
 
 body {
     width: 100%;
@@ -304,17 +349,6 @@ display: inline-block;
     color: #1ad5bb;
 }
 
-.female .img-title{
-    top: 0;
-    margin: 0;
-    text-align: center;
-    width: 10px;
-    height: 10px;
-    opacity: 0;
-    background-color: #333;
-    transition: all 0.5s ease;
-}
-
 .img-title h5 {
         position: absolute;
         color: #fff;
@@ -323,23 +357,15 @@ display: inline-block;
         text-align: center;
     }
 
-.female{
-    display: inline-block;
-}
-
-.female:hover .img-title {
-    opacity: 1;
-}
-
 .female img{
-width: 12%;
+width: 70%;
 margin: 0 5px 0 5px;
 }
-.male{
-display: inline-block;}
+
+
 .male img{
-width: 12%;
-    margin: 0 5px -20px 5px;
+width: 70%;
+    margin: 0 5px 0 5px;
 }
 
 #extras {
