@@ -308,6 +308,16 @@ opacity: 0.5;
 /*    padding-top: 100px;*/
 }
 
+
+#Review{
+
+  width: 100%;
+background-image: url(/img/iPhoneMockup.png)
+    padding-bottom: 250px;
+    color: #fff;
+
+}
+
 #about {
 width: 100%;
     background-color: #1ad5bb;
