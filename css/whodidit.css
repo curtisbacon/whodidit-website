@@ -4,17 +4,15 @@
 
 .female {
     display: inline-block;
-	float: left;
-	width: 990px;
-	margin-left: 25%;
-    margin-right: 25%;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
 }
 .male {
  display: inline-block;
-	float: left;
-	width: 990px;
-	margin-left: 25%;
-    margin-right: 25%;
+	margin-left: auto;
+    margin-right: auto;
+    padding-left: 5%;
 
 }
 .grid-block {
@@ -368,9 +366,10 @@ width: 70%;
     margin: 0 5px 0 5px;
 }
 
+
 #extras {
     width: 100%;
-background-color: dimgray;
+background-color: #425963;
     padding-bottom: 250px;
     color: #fff;
 }
